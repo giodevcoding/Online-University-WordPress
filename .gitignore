@@ -1,0 +1,17 @@
+**/node_modules/
+**/languages/
+
+#wp-content
+/upgrade/
+/uploads/
+/index.php
+
+#wp-content/plugins
+plugins/*/
+!plugins/paying-attention-plugin/
+!plugins/giodev-first-plugin
+!plugins/new-database-table/
+!plugins/pets-custom-post-type/
+!plugins/word-filter-plugin/
+
+/themes/index.php

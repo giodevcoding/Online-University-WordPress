@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "paying-attention/featured-professor",
+    "title": "Professor Callout",
+    "icon": "welcome-learn-more",
+    "category": "common",
+    
+    "attributes": {
+        "profID": {"type": "string"}
+    },
+
+    "editorScript": "file:../../build/featured-professor.js",
+    "editorStyle": "file:../../build/featured-professor.css",
+    "style": "file:../../build/featured-professor.css",
+
+    "example": {
+        "attributes": {
+        }
+    }
+}
