@@ -3,6 +3,7 @@
 **/build/
 **/package.json
 **/package-lock.json
+**/*.org
 
 #wp-content
 /upgrade/
