@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "online-university/footer",
+    "title": "University Footer",
+
+    "editorStyle": "online-university-footer-style",
+    "style": "online-university-footer-style"
+}

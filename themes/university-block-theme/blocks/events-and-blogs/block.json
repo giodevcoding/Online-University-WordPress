@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "online-university/events-and-blogs",
+    "title": "Events & Blogs",
+    "icon": "calendar",
+
+    "editorStyle": "online-university-events-and-blogs-style",
+    "style": "online-university-events-and-blogs-style"
+}

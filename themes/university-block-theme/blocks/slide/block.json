@@ -1,0 +1,16 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "online-university/slide",
+    "title": "Slide",
+    
+    "attributes": {
+        "align": { "type": "string", "default": "full" },
+        "imageID": { "type": "number" },
+        "imageURL": { "type": "string" },
+        "themeImage": { "type": "string" }
+    },
+
+    "editorStyle": "online-university-slide-style",
+    "style": "online-university-slide-style"
+}

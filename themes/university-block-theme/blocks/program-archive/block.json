@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "online-university/program-archive",
+    "title": "Program Archive",
+    "icon": "admin-page",
+
+    "editorStyle": "online-university-program-archive-style",
+    "style": "online-university-blog-program-archive-style"
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "online-university/single-professor",
+    "title": "Single Professor",
+    "icon": "welcome-learn-more",
+
+    "editorStyle": "online-university-single-professor-style",
+    "style": "online-university-single-professor-style"
+}

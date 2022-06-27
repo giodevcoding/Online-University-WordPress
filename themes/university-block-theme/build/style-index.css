@@ -138,6 +138,10 @@ li {
 }
 
 /* BEM Blocks */
+.server-side-wrapper {
+  pointer-events: none;
+}
+
 .remove-favorite {
   display: inline-block;
   transition: all 0.3s;

@@ -1,0 +1,15 @@
+
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "online-university/generic-heading",
+    "title": "Generic Heading",
+    
+    "attributes": {
+        "text": { "type": "string" },
+        "size": { "type": "string", "default": "large" }
+    },
+
+    "editorStyle": "online-university-generic-heading-style",
+    "style": "online-university-generic-heading-style"
+}

@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "online-university/header",
+    "title": "University Header",
+
+    "editorStyle": "online-university-header-style",
+    "style": "online-university-header-style"
+}

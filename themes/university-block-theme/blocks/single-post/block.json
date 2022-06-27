@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "online-university/single-post",
+    "title": "Single Post",
+    "icon": "admin-post",
+
+    "editorStyle": "online-university-single-post-style",
+    "style": "online-university-single-post-style"
+}

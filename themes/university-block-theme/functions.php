@@ -245,4 +245,22 @@ function page_banner( $args = NULL ) {
     </div>
 <?
 }
+
+
+add_filter('allowed_block_types_all', 'my_allowed_blocks', 10, 2);
+function my_allowed_blocks( $allowed_block_types, $editor_context ) {
+    
+    // Post Editor Screen
+    if ( !empty( $editor_context->post ) ) {
+        
+        return $allowed_block_types;
+    }
+
+    // Full Site Editor Screen
+
+    return $allowed_block_types;
+
+}
+
+
 ?>

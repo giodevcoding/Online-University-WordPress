@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "online-university/blog-index",
+    "title": "Blog Index",
+    "icon": "admin-page",
+
+    "editorStyle": "online-university-blog-index-style",
+    "style": "online-university-blog-index-style"
+}

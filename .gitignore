@@ -1,5 +1,8 @@
 **/node_modules/
 **/languages/
+**/build/
+**/package.json
+**/package-lock.json
 
 #wp-content
 /upgrade/

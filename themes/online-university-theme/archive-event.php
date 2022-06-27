@@ -9,8 +9,6 @@ page_banner( array(
 
 ?>
 
-
-
 <div class="container container--narrow page-section">
     <?php 
 

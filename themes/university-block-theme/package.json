@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "wp-scripts start src/index.js blocks/banner.js",
+    "start": "wp-scripts start src/index.js blocks/banner/ blocks/generic-button/ blocks/generic-heading/ blocks/events-and-blogs/ blocks/header/ blocks/footer/ blocks/slideshow/ blocks/slide/ blocks/single-post blocks/single-page blocks/blog-index blocks/program-archive blocks/single-program blocks/single-professor/ blocks/my-notes",
+    "build": "wp-scripts build src/index.js blocks/banner/ blocks/generic-button/ blocks/generic-heading/ blocks/events-and-blogs/ blocks/header/ blocks/footer/ blocks/slideshow/ blocks/slide/ blocks/single-post blocks/single-page blocks/blog-index blocks/program-archive blocks/single-program blocks/single-professor/ blocks/my-notes",
     "dev": "wp-scripts start",
     "devFast": "wp-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +15,10 @@
   "license": "ISC",
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
+    "@wordpress/block-editor": "^9.3.0",
+    "@wordpress/icons": "^9.2.0",
     "@wordpress/scripts": "*",
+    "@wordpress/server-side-render": "^3.9.0",
     "axios": "^0.21.1",
     "leaflet": "^1.7.1",
     "mapbox-gl": "^2.8.1",

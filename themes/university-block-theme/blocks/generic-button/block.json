@@ -1,0 +1,17 @@
+
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "online-university/generic-button",
+    "title": "Generic Button",
+    
+    "attributes": {
+        "text": { "type": "string" },
+        "size": { "type": "string", "default": "large" },
+        "linkObject": { "type": "object" },
+        "colorName": { "type": "string", "default": "blue" }
+    },
+
+    "editorStyle": "online-university-generic-button-style",
+    "style": "online-university-generic-button-style"
+}

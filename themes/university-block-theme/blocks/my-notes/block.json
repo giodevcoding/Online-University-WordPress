@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "online-university/my-notes",
+    "title": "My Notes",
+    "icon": "edit",
+
+    "editorStyle": "online-university-my-notes-style",
+    "style": "online-university-single-my-notes-style"
+}

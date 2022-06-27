@@ -1,0 +1,13 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "online-university/slideshow",
+    "title": "Slideshow",
+    
+    "attributes": {
+        "align": { "type": "string", "default": "full" }
+    },
+
+    "editorStyle": "online-university-slideshow-style",
+    "style": "online-university-slideshow-style"
+}
