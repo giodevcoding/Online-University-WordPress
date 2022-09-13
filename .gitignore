@@ -8,6 +8,7 @@
 /upgrade/
 /uploads/
 /index.php
+/ai1wm-backups/
 
 #wp-content/plugins
 plugins/*/
