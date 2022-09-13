@@ -14,9 +14,12 @@
     "author": "gioDev",
     "license": "ISC",
     "devDependencies": {
-        "@wordpress/scripts": "^23.1.0"
+        "@wordpress/scripts": "^23.1.0",
+        "eslint-plugin-react-hooks": "^4.6.0"
     },
     "dependencies": {
+        "@wordpress/element": "^4.15.0",
         "react-color": "^2.19.3"
-    }
+    },
+    "config": {}
 }

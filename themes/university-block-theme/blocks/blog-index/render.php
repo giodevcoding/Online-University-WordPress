@@ -24,7 +24,7 @@ page_banner( array(
 
             <div class="generic-content">
                 <?php the_excerpt(); ?>
-                <p><a href="<?php the_permalink(); ?>" class="btn btn--blue">Continue Reading &raquo</a></p>
+                <p><a href="<?php the_permalink(); ?>" class="btn btn--blue">Continue Reading &raquo;</a></p>
             </div>
         </div>
 

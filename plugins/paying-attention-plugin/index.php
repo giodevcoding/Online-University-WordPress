@@ -70,7 +70,7 @@ class PayingAttention {
 
     function render_quiz_block( $attributes ) {
         if ( ! is_admin() ) {
-            wp_enqueue_script( 'paying-attention-quiz-render', plugin_dir_url( __FILE__ ) . 'build/quiz-render.js', array( 'wp-element' ) );
+            wp_enqueue_script( 'paying-attention-quiz-render', plugin_dir_url( __FILE__ ) . 'build/quiz-render.js', array( 'wp-element' ), false, true );
         }
 
         ob_start();

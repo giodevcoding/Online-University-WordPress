@@ -2,9 +2,15 @@ import ReactDOM from 'react-dom';
 import Quiz from './quiz-save';
 import "./render.scss";
 
-const quizComponents = document.querySelectorAll('.paying-attention-quiz');
+//window.addEventListener('load', (e) => {
 
-quizComponents.forEach(div => {
-    const data = JSON.parse(div.querySelector("pre").innerHTML);
-    ReactDOM.render(<Quiz {...data} />, div);
-});
+    const quizComponents = document.querySelectorAll('.paying-attention-quiz');
+
+    console.log(quizComponents);
+
+    quizComponents.forEach(function(div) {
+        const data = JSON.parse(div.querySelector("pre").innerHTML);
+        ReactDOM.render(<Quiz {...data} />, div);
+    });
+    
+//});
