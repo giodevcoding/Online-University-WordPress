@@ -243,7 +243,7 @@ function page_banner( $args = NULL ) {
             </div>
         </div>
     </div>
-<?
+<?php
 }
 
 

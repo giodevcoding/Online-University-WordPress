@@ -227,7 +227,7 @@ function page_banner( $args = NULL ) {
         }
     }
 
-?>
+    ?>
 
 
     <div class="page-banner">
@@ -239,6 +239,6 @@ function page_banner( $args = NULL ) {
             </div>
         </div>
     </div>
-<?
+    <?php
 }
 ?>
